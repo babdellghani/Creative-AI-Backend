@@ -12,14 +12,14 @@ Creative-AI integrates three cutting-edge AI models into a unified platform:
 
 All services are containerized and can be deployed locally or on AWS with ECR and EC2 integration.
 
-## �️ Frontend Interface
+## Frontend Interface
 
 A complete web frontend is available for easy interaction with all services:
 - **Frontend Repository**: [Creative-AI-Frontend](https://github.com/babdellghani/Creative-AI-Frontend.git)
 - **Features**: Web-based interface for all three AI models
 - **Integration**: Direct API communication with StyleTTS2, Seed-VC, and Make-An-Audio services
 
-## �🚀 Features
+## 🚀 Features
 
 ### StyleTTS2 - Text-to-Speech
 - Human-level TTS synthesis quality
