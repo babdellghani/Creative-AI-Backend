@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  styletts2-api:
+    image: your_account.dkr.ecr.eu-north-1.amazonaws.com/styletts2-api:latest
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  seedvc-api:
+    image: your_account.dkr.ecr.eu-north-1.amazonaws.com/seed-vc-api:latest
+    ports:
+      - "8001:8000"
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  make-an-audio-api:
+    image: your_account.dkr.ecr.eu-north-1.amazonaws.com/make-an-audio-api:latest
+    ports:
+      - "8002:8000"
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
