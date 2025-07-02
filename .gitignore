@@ -1,0 +1,107 @@
+# Large model files and checkpoints
+*.pth
+*.ckpt
+*.pt
+*.safetensors
+*.bin
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Model weights and checkpoints directories
+**/checkpoints/
+**/useful_ckpts/
+**/Models/
+**/models/
+**/vocoder/
+**/msclap/
+**/bigvgan/
+**/runs/
+**/reconstructed/
+**/reference_audio/
+
+# Cache and temporary files
+**/__pycache__/
+**/.cache/
+**/cache/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+**/.env
+**/venv/
+**/env/
+
+# Dataset files
+**/dataset/
+**/data/
+**/Data/
+**/*.tsv
+**/*.csv
+**/*.json
+**/*.txt
+**/*.vtt
+
+# Generated outputs
+**/results_*.wav
+**/output.wav
+**/generated_*
+**/outputs/
+
+# IDE and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker volumes and logs
+**/logs/
+**/log/
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.tox/
+.coverage
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Specific large files found
+Make-An-Audio/msclap/clapcap_weights_2023.pth
+Make-An-Audio/msclap/CLAP_weights_2022.pth
+Make-An-Audio/useful_ckpts/maa1_full.ckpt
+Make-An-Audio/useful_ckpts/bigvgan/best_netG.pt
+Make-An-Audio/useful_ckpts/CLAP/CLAP_weights_2023.pth
+seed-vc/checkpoints/models--lj1995--VoiceConversionWebUI/
+seed-vc/checkpoints/models--Plachta--Seed-VC/
+seed-vc/checkpoints/models--funasr--campplus/
+seed-vc/runs/ft_model.pth
+StyleTTS2/Models/
+StyleTTS2FineTune/Sam\ Altman.wav
