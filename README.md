@@ -517,10 +517,9 @@ Contributions are welcome! Please:
 ## 📞 Support & Contributing
 
 ### Getting Help
-1. Check the `Backend.txt` file for detailed setup instructions
-2. Review individual service documentation in each folder
-3. Check AWS deployment logs if using cloud deployment
-4. Verify all model checkpoints are downloaded correctly
+1. Review individual service documentation in each folder
+2. Check AWS deployment logs if using cloud deployment
+3. Verify all model checkpoints are downloaded correctly
 
 ### Contributing
 Contributions welcome! Please:
